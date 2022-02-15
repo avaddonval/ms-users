@@ -1,5 +1,8 @@
 lockfileVersion: 5.3
 
+overrides:
+  consul: ^0.40.0
+
 specifiers:
   '@hapi/bell': ^12.3.0
   '@hapi/boom': ^9.1.4
