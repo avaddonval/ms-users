@@ -4,7 +4,7 @@ const { ListFilter } = require('../../../../src/utils/stateless-jwt/list-filter'
 const { Rule } = require('../../../../src/utils/stateless-jwt/rule');
 const { RuleGroup } = require('../../../../src/utils/stateless-jwt/rule-group');
 
-describe('#radix-list filter', () => {
+describe('#JWT list filter', () => {
   let list = new ListFilter(true);
 
   beforeEach('start', () => {
